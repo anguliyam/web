@@ -21,7 +21,7 @@
 
 <main>
     <header>
-        <h1>Welcome to AI Services Platform</h1>
+        <h1>Welcome to ANGULIYAM AI Services Platform</h1>
         <p>Explore our cutting-edge AI services below.</p>
     </header>
 
