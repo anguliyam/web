@@ -74,5 +74,12 @@ export default {
 	],
 	watch: {
 		clearScreen: false
-	}
+	},
+	output: {
+		sourcemap: true,
+		format: 'iife',
+		name: 'app',
+		file: 'public/build/bundle.js'
+	  },
+	  
 };
