@@ -1,17 +1,22 @@
 <footer>
-    <div class="container">
-      <p>&copy; 2024 Anguliyam AI Consultancy. All rights reserved.</p>
-      <div class="social-links">
-        <a href="#" aria-label="Facebook">FB</a>
-        <a href="#" aria-label="Twitter">TW</a>
-        <a href="#" aria-label="LinkedIn">LI</a>
-        <div class="social-links">
-          <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook">FB</a>
-          <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" aria-label="Twitter">TW</a>
-          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">LI</a>
-        </div>
-      </div>
+  <div class="company-info">
+    <h2>Anguilyam</h2>
+    <p>Innovating for a better tomorrow. Anguilyam is committed to delivering cutting-edge solutions for our clients.</p>
+    <div class="social-icons">
+      <a href="https://youtube.com/anguilyam" target="_blank" rel="noopener noreferrer">
+        <i class="fab fa-youtube"></i>
+      </a>
+      <a href="https://facebook.com/anguilyam" target="_blank" rel="noopener noreferrer">
+        <i class="fab fa-facebook"></i>
+      </a>
+      <a href="https://twitter.com/anguilyam" target="_blank" rel="noopener noreferrer">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a href="https://linkedin.com/company/anguilyam" target="_blank" rel="noopener noreferrer">
+        <i class="fab fa-linkedin"></i>
+      </a>
     </div>
+  </div>
   </footer>
   
   <style>
@@ -19,46 +24,54 @@
       background-color: #ffffff;
       color: #000000;
       padding: 1rem 0;
-      box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+      box-shadow: 0 -2px 2px rgba(0, 0, 0, 0.1);
     }
   
-    .container {
+
+    .company-info {
+      margin-top: 1rem;
+      text-align: center;
+    }
+  
+    .company-info .social-icons {
+      margin-top: 1rem;
+    }
+  
+    .company-info .social-icons a {
+      font-size: 2rem;
+      color: #333;
+      transition: transform 0.3s ease;
+    }
+  
+    .company-info .social-icons a:hover {
+      transform: scale(1.2);
+    }
+
+    .social-icons {
       display: flex;
-      justify-content: space-between;
-      align-items: center;
-      max-width: 1200px;
-      margin: 0 auto;
-      padding: 0 1rem;
+      justify-content: center;
+      gap: 1rem;
+      margin-top: 1rem;
     }
   
-    p {
-      margin: 0;
+  
+    .company-info {
+      margin-top: 1rem;
+      text-align: center;
     }
   
-    .social-links a {
-      color: #000000;
-      text-decoration: none;
-      margin-left: 1rem;
-      font-weight: bold;
-      transition: color 0.3s ease;
+    .company-info .social-icons {
+      margin-top: 1rem;
     }
   
-    .social-links a:hover {
-      color: #666666;
+    .company-info .social-icons a {
+      font-size: 2rem;
+      color: #333;
+      transition: transform 0.3s ease;
     }
   
-    @media (max-width: 768px) {
-      .container {
-        flex-direction: column;
-        text-align: center;
-      }
-  
-      .social-links {
-        margin-top: 1rem;
-      }
-  
-      .social-links a {
-        margin: 0 0.5rem;
-      }
+    .company-info .social-icons a:hover {
+      transform: scale(1.2);
     }
+  
   </style>
